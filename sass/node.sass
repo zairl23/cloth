@@ -1,0 +1,21 @@
+@import blueprint
+@import "blueprint/colors"
+@import "blueprint/grid"
+@import "blueprint/fancy-type"
+
+
+
+
+body
+  
+  .container
+    +container
+    background-color: #353129
+    #footer
+      +column(24)
+    #siderbar
+      +column(7,true)
+      background: #ccd2bc 
+    #main
+      +column(17)
+    
