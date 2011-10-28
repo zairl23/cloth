@@ -1,11 +1,11 @@
-/* line 2, ../sass/layout.sass */
+/* line 1, ../../sass/partials/welcome-login.sass */
 html {
   background-color: #81aeab;
   background-image: -moz-linear-gradient(top, #71a4a1 0%, #81aeab 20%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #71a4a1), color-stop(0.2, #81aeab));
 }
 
-/* line 7, ../sass/layout.sass */
+/* line 6, ../../sass/partials/welcome-login.sass */
 body {
   width: 1240px;
   margin: 0 auto;
@@ -14,12 +14,12 @@ body {
   text-align: justify;
 }
 
-/* line 14, ../sass/layout.sass */
+/* line 13, ../../sass/partials/welcome-login.sass */
 p {
   margin-bottom: 18px;
 }
 
-/* line 17, ../sass/layout.sass */
+/* line 16, ../../sass/partials/welcome-login.sass */
 a {
   color: #940033;
   .hover-border-bottom: 1px solid #940033;
@@ -27,28 +27,28 @@ a {
 }
 
 /* HEADER */
-/* line 25, ../sass/layout.sass */
+/* line 24, ../../sass/partials/welcome-login.sass */
 hgroup {
   margin: 20px 0 40px;
 }
-/* line 27, ../sass/layout.sass */
+/* line 26, ../../sass/partials/welcome-login.sass */
 hgroup h1 {
   font: 40px/54px HighlandGothicLightFLFRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #970000;
   text-shadow: -1px -1px 0 #650000, 0 0 10px rgba(255, 255, 255, 0.7);
 }
-/* line 31, ../sass/layout.sass */
+/* line 30, ../../sass/partials/welcome-login.sass */
 hgroup h2 {
   font: 14px/20px Colaborate-RegularRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #eeeeee;
 }
-/* line 34, ../sass/layout.sass */
+/* line 33, ../../sass/partials/welcome-login.sass */
 hgroup h2 a:hover {
   border: none;
 }
 
 /* Nav */
-/* line 38, ../sass/layout.sass */
+/* line 37, ../../sass/partials/welcome-login.sass */
 nav {
   margin: 30px 0 40px;
   background-color: #970000;
@@ -62,7 +62,7 @@ nav {
   -moz-border-radius: 20px;
   /* nav-ul */
 }
-/* line 50, ../sass/layout.sass */
+/* line 49, ../../sass/partials/welcome-login.sass */
 nav ul {
   text-align: center;
   height: 40px;
@@ -70,13 +70,13 @@ nav ul {
   display: table;
   /* nav-ul-li */
 }
-/* line 56, ../sass/layout.sass */
+/* line 55, ../../sass/partials/welcome-login.sass */
 nav ul li {
   display: inline;
   position: relative;
   /* nav-ul-li-a */
 }
-/* line 60, ../sass/layout.sass */
+/* line 59, ../../sass/partials/welcome-login.sass */
 nav ul li a {
   font-size: 14px;
   padding: 0 10px;
@@ -87,43 +87,28 @@ nav ul li a {
 }
 
 /*Container */
-/* line 68, ../sass/layout.sass */
+/* line 67, ../../sass/partials/welcome-login.sass */
 #container {
   width: 950px;
-  margin: 0 auto;
-  overflow: hidden;
-  *zoom: 1;
 }
-/* line 71, ../sass/layout.sass */
-#container #left-column {
-  display: inline;
+/* line 69, ../../sass/partials/welcome-login.sass */
+#container #left-text {
   float: left;
-  margin-right: 10px;
-  width: 590px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 40%;
+  color: white;
+  font: 15px HighlandGothicLightFLFRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin: 50px 0 0 0;
 }
-/* line 147, ../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html #container #left-column {
-  overflow-x: hidden;
-}
-/* line 77, ../sass/layout.sass */
-#container #right-column {
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 190px;
-  padding-right: 40px;
-  padding-left: 40px;
-}
-/* line 147, ../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html #container #right-column {
-  overflow-x: hidden;
+/* line 75, ../../sass/partials/welcome-login.sass */
+#container #right-login {
+  float: right;
+  width: 20%;
+  margin: 0 0 0 100px;
 }
 
 /*footer */
-/* line 83, ../sass/layout.sass */
+/* line 81, ../../sass/partials/welcome-login.sass */
 #foot {
   float: left;
-  margin: 250px 0 0 250px;
+  margin: 250px 0 0 0;
 }

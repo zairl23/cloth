@@ -1,0 +1,42 @@
+/* line 11, ../sass/node.sass */
+body .container {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+  *zoom: 1;
+  background-color: #353129;
+}
+/* line 14, ../sass/node.sass */
+body .container #footer {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 950px;
+}
+/* line 147, ../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body .container #footer {
+  overflow-x: hidden;
+}
+/* line 16, ../sass/node.sass */
+body .container #siderbar {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 270px;
+  background: #ccd2bc;
+}
+/* line 147, ../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body .container #siderbar {
+  overflow-x: hidden;
+}
+/* line 19, ../sass/node.sass */
+body .container #main {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 670px;
+}
+/* line 147, ../../.rvm/gems/ruby-1.9.2-p290@rails311/gems/compass-0.11.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body .container #main {
+  overflow-x: hidden;
+}

@@ -1,0 +1,43 @@
+!!! 5
+%html
+
+  %head
+    %meta{ :charset => "utf-8" }
+    %title Wingflying
+    %link{ :href => 'stylesheets/layout.css', :type => 'text/css', :rel => 'stylesheet' }
+    
+  %body
+    %header
+      %hgroup
+        %h1 Wingflying
+        %h2 
+          本网站的灵感来自
+          %a{ :href => 'http://wingmakers.com' }wingmakers
+      %nav
+        %ul 
+          %li 
+            %a{:href => '#'}新闻
+          %li
+            %a{:href => '#'}大师
+          %li
+            %a{:href => '#'}音乐
+          %li
+            %a{:href => '#'}书籍
+          
+   
+    #container
+      #left-text
+        %p wingmakers存在于各民族的神话中，在美洲印第安文化中被称为羽翼之神，宗教中的光之族，耶洛因等。wingmakers在地球七大洲留下了关于文化、科技、艺术、形而上学等的知识的时间旅行器（古代遗址），它们又被称为感官数据流，用来启发人类新的知觉或第七种感官。通过这新的知觉系统，人类将接取到起源的“平等性振动频率”。从而了解自己的本质，演化到下一阶段.
+      #right-login
+        %form
+          %h2登录
+          用户名：
+          %br
+          %input{ :type => 'text'}
+          %br密码：
+          %input{ :type => 'password'}
+          %br
+          %input{ :type => 'submit', :value => '登录'}
+    %footer#foot
+      %p 本网站旨意建立灵性和新认知，新文明探索的网络社区
+    
