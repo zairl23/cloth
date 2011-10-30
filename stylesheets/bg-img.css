@@ -1,0 +1,10 @@
+/* bg-img */
+/* line 6, ../sass/bg-img.sass */
+.bg {
+  width: 100%;
+  min-width: 1000px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
