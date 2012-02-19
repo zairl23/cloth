@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = 'utf-8' /> 
+    <title>学习列表元素</title>
+    <!--
+      利用input和javascript制作一个所见所的的界面。
+      list-style
+        list-style-type:
+          none | asterisks | box | check | circle
+          square | decimal | decimal-leading-zero
+          lower-roman | upper-roman | upper-alpha
+          ...
+        list-style-image: none | url
+        list-style-position: inside | outside
+    -->
+    <style>
+      #ul-1 {
+        background: #BDDB62;
+        list-style: footnotes inside;
+      }
+      #ul-2 {
+        background: #BDDB62;
+        list-style: asterisks outside;
+      }
+      #ul-3 {
+        background: #BDDB62;
+        list-style: box;
+      }
+      #ul-4 {
+        background: #BDDB62;
+        list-style: check;
+      }
+      #ul-5 {
+        background: #BDDB62;
+        list-style: circle;
+      }  
+      #ul-6 {
+        background: #BDDB62;
+        list-style: diamond;
+      }
+      #ul-7 {
+        background: #BDDB62;
+        list-style: disc;
+      }  
+      #ul-8 {
+        background: #BDDB62;
+        list-style: hyphen;
+      } 
+      #ul-9 {
+        background: #BDDB62;
+        list-style: square;
+      }       
+      #ul-10 {
+        background: #BDDB62;
+        list-style: decimal;
+      }
+      #ul-11 {
+        background: #BDDB62;
+        list-style: decimal-leading-zero;
+      } 
+      #ul-12 {
+        background: #BDDB62;
+        list-style: lower-roman;
+      }  
+      #ul-13 {
+        background: #BDDB62;
+        list-style: upper-roman;
+      }
+      #ul-14 {
+        background: #BDDB62;
+        list-style: lower-alpha;
+      }
+      #ul-15 {
+        background: #BDDB62;
+        list-style: upper-alpha;
+      }
+      #ul-16 {
+        background: #BDDB62;
+        list-style: lower-greek;
+      }
+      #ul-17 {
+        background: #BDDB62;
+        list-style: upper-greek;
+      }
+      #ul-18 {
+        background: #BDDB62;
+        list-style: lower-latin;
+      }
+      #ul-19 {
+        background: #BDDB62;
+        list-style: upper-latin;
+      }
+      #ul-20 {
+        background: #BDDB62;
+        list-style: hebrew;
+      }
+      
+                    
+    </style>
+  </head>
+  
+  <body>
+    
+    <ul id = 'ul-1'>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    
+     <ul id = "ul-2">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-3">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-4">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-5">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-6">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-7">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+     <ul id = "ul-8">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-9">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-10">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-11">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-12">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-13">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-14">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-15">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-16">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-17">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-18">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-19">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    <ul id = "ul-20">
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+      <li><a href = "#">列表1</a></li>
+    </ul>
+    
+    
+    
+  </body>
+</html>
