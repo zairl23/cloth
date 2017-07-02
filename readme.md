@@ -10,3 +10,7 @@ Cloth
 [is-javascript-a-pass-by-reference-or-pass-by-value-language](http://stackoverflow.com/questions/518000/is-javascript-a-pass-by-reference-or-pass-by-value-language)
 
 [Can I Use](http://caniuse.com/)
+
+[如何理解虚拟DOM?](https://www.zhihu.com/question/29504639?sort=created)
+
+[Vitual DOM 的内部工作原理](http://efe.baidu.com/blog/the-inner-workings-of-virtual-dom/)
