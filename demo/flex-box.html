@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flex Box</title>
+    <style>
+      .form{
+        display: flex;
+      }
+      .form-item {
+        flex: 1;
+      }
+      .container {
+        margin: 10px;
+        width: 800px;
+        display: flex;
+      }
+
+      .container-column{
+        margin: 20px;
+        flex: 1;
+      }
+
+      .main-clolumn{
+        order: 2;
+      }
+
+      .left-column {
+        order:1;
+      }
+
+      .right-column{
+        order:3;
+      }
+      .middle-con {
+        width:100%;
+        height: 800px;
+        background-color: blue;
+        color: white;
+        display: flex;
+      }
+
+      .ptext{
+        margin: auto;
+      }
+      .just-con {
+        /*display: flex;*/
+
+      }
+      .just-column {
+        flex:1;
+        flex-basis: 30%;
+        /*box-sizing: border-box;*/
+      }
+      @media (min-width: 900px) {
+        .just-con {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    </style>
+  </head>
+  <body>
+        <form class="form-container" action="index.html" method="post">
+            <div class="form">
+              <label>username: </label>
+              <input class="form-item" type="text" value="https://www.youtube.com/watch?v=k32voqQhODc" />
+            </div>
+            <div class="form">
+              <label>password: </label>
+              <input class="form-item" type="text" />
+            </div>
+        </form>
+
+        <div class="container">
+            <div class="left-column container-column">
+              left:咖啡树是属茜草科常绿小乔木，日常饮用的咖啡是用咖啡豆配合各种不同的烹煮器具制作出来的，而咖啡豆就是指咖啡树果实里面的果仁，再用适当的方法烘焙而成，
+              一杯标准的咖啡品尝起来的味道不应该是苦涩的，一名合格的咖啡师在制作咖啡时会严谨的进行每一步操作，最后为客人呈上的咖啡在味觉上会呈现出不同程度的甜度、酸度、醇厚度或是干净度。
+            </div>
+            <div class="main-column container-column">
+              main: 咖啡该不该戒
+
+有研究表明，早逝率、Ⅱ型糖尿病发病率以及某些癌症发病率的降低都与喝咖啡存在关联。咖啡中的活性成分能有助于缓解氧化应激，即自由基和抗氧化剂之间的不平衡现象。咖啡中的咖啡酸，还能提高肌肉对血糖的利用程度，除此之外，还含有促进免疫系统和抗炎的成分。研究结果的系统性总结是衡量科学证据最有力的方法，所以不用再戒咖啡了。
+咖啡醇具有抗癌作用更多
+咖啡中含有咖啡豆醇和咖啡醇，具有抗癌和抗炎的作用。咖啡能上调肝脏中的抗毒生化过程，保护身体免受黄曲霉毒素和其它致癌物质的影响。
+            </div>
+            <div class="right-column container-column">
+                right:咖啡中含有绿原酸，这种物质已被证明能够促进葡萄糖代谢和提高胰岛素敏感度，能提高肌肉对血糖的利用程度，从而降低人们患糖尿病的风险。
+            </div>
+        </div>
+
+        <div class="just-con">
+          <div class="just-column">
+            left:咖啡树是属茜草科常绿小乔木，日常饮用的咖啡是用咖啡豆配合各种不同的烹煮器具制作出来的，而咖啡豆就是指咖啡树果实里面的果仁，再用适当的方法烘焙而成，
+            一杯标准的咖啡品尝起来的味道不应该是苦涩的，一名合格的咖啡师在制作咖啡时会严谨的进行每一步操作，最后为客人呈上的咖啡在味觉上会呈现出不同程度的甜度、酸度、醇厚度或是干净度。
+          </div>
+          <div class=" just-column">
+            main: 咖啡该不该戒
+
+有研究表明，早逝率、Ⅱ型糖尿病发病率以及某些癌症发病率的降低都与喝咖啡存在关联。咖啡中的活性成分能有助于缓解氧化应激，即自由基和抗氧化剂之间的不平衡现象。咖啡中的咖啡酸，还能提高肌肉对血糖的利用程度，除此之外，还含有促进免疫系统和抗炎的成分。研究结果的系统性总结是衡量科学证据最有力的方法，所以不用再戒咖啡了。
+咖啡醇具有抗癌作用更多
+咖啡中含有咖啡豆醇和咖啡醇，具有抗癌和抗炎的作用。咖啡能上调肝脏中的抗毒生化过程，保护身体免受黄曲霉毒素和其它致癌物质的影响。
+          </div>
+          <div class=" just-column">
+              right:咖啡中含有绿原酸，这种物质已被证明能够促进葡萄糖代谢和提高胰岛素敏感度，能提高肌肉对血糖的利用程度，从而降低人们患糖尿病的风险。
+          </div>
+        </div>
+        <div class="middle-con">
+            <p class="ptext">
+                test
+            </p>
+        </div>
+  </body>
+</html>
