@@ -18,3 +18,5 @@ Cloth
 [单页应用的数据流方案探索](https://zhuanlan.zhihu.com/p/26426054)
 
 [React VR](https://facebook.github.io/react-vr/)
+
+[awesome-react-vr](https://github.com/nikgraf/awesome-react-vr)
