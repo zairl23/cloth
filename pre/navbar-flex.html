@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8" />
+    <title>导航条设计之道</title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.staticfile.org/meyer-reset/2.0/reset.min.css"> 
+    <style type = "text/css">
+      #nav {
+        display: -webkit-flex; /* Safari */
+        display: flex;
+        list-style: none;
+        /* padding: 20px 0 0 46px; */
+        width: 100%;
+        background: #FFCB2D;
+        text-align: center;
+        justify-content:space-between;
+        align-items: center;
+      }
+      #nav li {
+        padding: 1em 2em 1em 2em;        
+        
+      }
+
+      #nav a {
+        color: #333;
+        text-decoration: none;
+        display: block;
+        /* margin: 0 1px 0 0;
+         */
+         margin: auto;
+         vertical-align: middle;
+         
+      }
+      #title {
+          font-size: 1em;
+          font-weight: 600;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <ul id = "nav">
+      <li id = "category">
+            <select class="select">
+                    <option value="vue">Vue</option>
+                    <option value="react">React</option>
+                    <option value="angular">Angular</option>
+            </select>
+        
+                    <input class="search" type="text" placeholder="Search Book"/>
+        
+       </li>
+      
+      <li id = "title">
+            <a>WeCode</a>
+       </li>
+      <li id = "user">
+            <img  class="avatar" src="" alt="avatar">
+            <span>Menu</spam>  
+       </li>      
+    </ul>
+  </body>
+</html>
