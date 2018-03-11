@@ -20,3 +20,5 @@ Cloth
 [React VR](https://facebook.github.io/react-vr/)
 
 [awesome-react-vr](https://github.com/nikgraf/awesome-react-vr)
+
+[【译】Electron 的本质](https://segmentfault.com/a/1190000007503495)
