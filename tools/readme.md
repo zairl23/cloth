@@ -1,6 +1,17 @@
 Tools
 ========
 
+
+### Engine
+
+1. [WebAssembly](https://github.com/Hanks10100/wasm-examples/blob/master/how_to_code.md)
+
+1. [Servo](https://github.com/servo/servo)
+
+1. [WebAssemblyStudio](https://github.com/wasdk/WebAssemblyStudio)
+
+1. [WebAssemblyStudio](https://webassembly.studio/)
+
 ### Audio
 
 1. [MIDI.js](https://github.com/mudcube/MIDI.js): 🎹 Making life easy to create a MIDI-app on the web. Includes a library to program synesthesia into your app for memory recognition or for creating trippy effects. Convert soundfonts for Guitar, Bass, Drums, ect. into code that can be read by the browser. Supports multiple simultaneous instruments and perfect timing
@@ -16,3 +27,19 @@ Tools
 
 1. [iView](https://github.com/iview/iview)(A high quality UI Toolkit built on Vue.js)
   https://github.com/icarusion/vue-vueRouter-webpack
+
+### Image
+
+[Create graphics with a hand-drawn, sketchy, appearance](https://github.com/pshihn/rough)
+
+### APP Develop
+
+1. [LiteApp](https://github.com/iqiyi/LiteApp)
+
+### Game
+
+1. [Phaser](https://github.com/photonstorm/phaser)
+
+### Mobile
+
+1. [滴滴开源基于金融场景的Vuejs组件库Mand Mobile](https://github.com/didi/mand-mobile)
