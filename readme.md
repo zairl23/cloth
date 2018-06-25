@@ -40,5 +40,5 @@ Cloth
 
 ### Chrome Extension develop
 
-[Chrome插件(扩展)开发全攻略](https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html)
-
+1. [Chrome插件(扩展)开发全攻略](https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html)
+1. [360Docs](http://open.chrome.360.cn/extension_dev/overview.html)
