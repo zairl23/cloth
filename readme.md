@@ -38,3 +38,7 @@ Cloth
 
 [Http2](https://my.oschina.net/u/861562/blog/1823472)
 
+### Chrome Extension develop
+
+[Chrome插件(扩展)开发全攻略](https://www.cnblogs.com/liuxianan/p/chrome-plugin-develop.html)
+
