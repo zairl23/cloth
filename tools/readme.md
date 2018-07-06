@@ -22,6 +22,7 @@ Tools
 
 1. [ReactXP](https://github.com/microsoft/reactxp): Library for cross-platform app development
 1. [Weex](http://weex.apache.org/): 一套构建高性能、可扩展的原生应用跨平台开发方案
+1. [A Declarative 3D Globe Data Visualization Library built with Three.js](https://github.com/syt123450/giojs)
 
 ### Admin
 
