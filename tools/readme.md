@@ -36,6 +36,7 @@ Tools
 ### Image
 
 [Create graphics with a hand-drawn, sketchy, appearance](https://github.com/pshihn/rough)
+[Fully client side JavaScript diagramming library](https://github.com/jgraph/mxgraph)
 
 ### APP Develop
 
