@@ -54,6 +54,12 @@ Tools
 ### mapp
 
 1. [有赞小程序组件库](https://github.com/youzan/vant)
+1. [多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信/百度/支付宝/字节跳动小程序、H5、React Native 等的应用。](https://github.com/NervJS/taro)
+
+### doc
+
+1. [bear-tagged-notes-to-markdown](https://github.com/futantan/bear-tagged-notes-to-markdown)
+1. [基于 ueditor的更现代化的富文本编辑器，支持HTTPS ](https://github.com/notadd/neditor)
 
 ### Flutter
 
