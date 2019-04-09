@@ -23,6 +23,7 @@ Tools
 1. [ReactXP](https://github.com/microsoft/reactxp): Library for cross-platform app development
 1. [Weex](http://weex.apache.org/): 一套构建高性能、可扩展的原生应用跨平台开发方案
 1. [A Declarative 3D Globe Data Visualization Library built with Three.js](https://github.com/syt123450/giojs)
+1. [Vue Virtual Scroller](https://github.com/Akryum/vue-virtual-scroller)
 
 ### Admin
 
@@ -37,6 +38,7 @@ Tools
 ### Image
 
 [Create graphics with a hand-drawn, sketchy, appearance](https://github.com/pshihn/rough)
+[Fully client side JavaScript diagramming library](https://github.com/jgraph/mxgraph)
 
 ### APP Develop
 
@@ -53,3 +55,21 @@ Tools
 ### Map
 
 1. [A starter-kit for creating web-based mapping applications ](https://github.com/nasa/common-mapping-client)
+
+### mapp
+
+1. [有赞小程序组件库](https://github.com/youzan/vant)
+1. [多端统一开发框架，支持用 React 的开发方式编写一次代码，生成能运行在微信/百度/支付宝/字节跳动小程序、H5、React Native 等的应用。](https://github.com/NervJS/taro)
+
+### doc
+
+1. [bear-tagged-notes-to-markdown](https://github.com/futantan/bear-tagged-notes-to-markdown)
+1. [基于 ueditor的更现代化的富文本编辑器，支持HTTPS ](https://github.com/notadd/neditor)
+
+### Flutter
+
+1. [flutter-study[(https://github.com/yang7229693/flutter-study)
+
+### Css
+
+1. [tailwindcss](https://github.com/tailwindcss/tailwindcss)
